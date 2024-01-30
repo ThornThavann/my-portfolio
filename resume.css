@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(247, 217, 217);
+    
+
+}
+.container {
+    position: sticky;
+    top: 0;
+    padding: 30px;
+    font-size: 15px;
+    background-color: rgb(253, 188, 194);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+   
+
+ 
+   
+}
+.navbar a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 50px;
+
+
+
+}
+.box1{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    background-color: aliceblue;
+    margin: auto;
+
+    
+}
+.vann-img {
+    border-radius: 50%;
+}
+
+.vann-img img{
+    display: block;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 200px;
+}
