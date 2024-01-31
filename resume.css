@@ -1,51 +1,229 @@
-body{
-    background-color: rgb(247, 217, 217);
-    
-
+body {
+  background-color: rgb(247, 217, 217);
 }
 .container {
-    position: sticky;
-    top: 0;
-    padding: 30px;
-    font-size: 15px;
-    background-color: rgb(253, 188, 194);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-   
-
- 
-   
+  position: fixed;
+  top: 0;
+  padding: 30px;
+  font-size: 15px;
+  background-color: rgb(253, 188, 194);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.navbar a{
-    font-size: 30px;
-    text-decoration: none;
-    margin-left: 50px;
 
-
-
+.navbar {
+  flex: 1;
 }
-.box1{
-    width: 1000px;
-    height: 1000px;
-    display: flex;
-    background-color: aliceblue;
-    margin: auto;
-
-    
+.navbar a {
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.box1 {
+  width: 1000px;
+  height: 1600px;
+  display: flex;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 60px;
 }
 .vann-img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-.vann-img img{
-    display: block;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 200px;
-    height: 250px;
-    border-radius: 50px;
-    object-fit: cover;
-    margin-left: 200px;
+.vann-img img {
+  display: block;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 200px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-left: 110px;
+}
+.kong{
+  text-align:center;
+}
+.kong1{
+  font-size: 20px;
+  text-align: center;
+  line-height: 2rem;
+}
+.box2 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(156, 156, 229);
+  margin-left: 50px;
+}
+.text {
+  color: white;
+  font-weight: bold;
+}
+.social-icon {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 18px;
+  list-style: none;
+}
+.box3 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color:rgb(156, 156, 229);
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.ul {
+margin-left: 50px;
+margin-top: 30px;
+font-size: 18px;
+line-height: 2rem;
+
+}
+.box4 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(156, 156, 229);
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.ul1 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.box6 {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(156, 156, 229);
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.ul3 {
+  margin-left: 90px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.txt1{
+  margin-top: 120px;
+  font-size: 30px;
+  color: rgb(14, 14, 94);
+  margin-left: 20px;
+}
+.txt2 {
+  font-size: 30px;
+  color: rgb(14, 14, 94);
+  margin-left: 80px;
+  margin-top: -35px;
+}
+.txt3 {
+  margin-top: -50px;
+  margin-left: 340px;
+}
+.boxx1 {
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(156, 156, 229);
+  margin-left: 90px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.li1 {
+  margin-left: 90px;
+  margin-top: 30px;
+  font-size: 18px;
+  gap: 10px;
+  line-height: 2rem;
+}
+.p{
+  margin-top: -15px;
+  margin-left: 130px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.boxx2 {
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(156, 156, 229);
+  margin-left: 90px;
+  color: white;
+  font-weight: bold;
+}
+.p1{
+  margin-top: 30px;
+  margin-left: 130px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.boxx3 {
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+  background-color:rgb(156, 156, 229);
+  margin-left: 90px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.p2 {
+  margin-left: 90px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.button{
+  margin-left: 300px;
+  margin-top: 230px;
+  padding: 20px;
+  width: 50px;
+  background-color: rgb(81, 95, 255);
+  text-align: center;
+  border-radius: 30px;
+}
+.button a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.button1{
+  margin-left: 410px;
+  margin-top: -60px;
+  padding: 20px;
+  width: 50px;
+  background-color: rgb(81, 95, 255);
+  text-align: center;
+  border-radius: 30px;
+}
+.button1 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
 }
