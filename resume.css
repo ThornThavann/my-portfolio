@@ -49,11 +49,13 @@ body {
 }
 .kong{
   text-align:center;
+  margin-top: -15px;
 }
 .kong1{
   font-size: 20px;
   text-align: center;
   line-height: 2rem;
+  
 }
 .box2 {
   width: 350px;
