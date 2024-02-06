@@ -55,12 +55,12 @@ body {
 
 .for1 {
   font-size: 30px;
-  margin-top: 90px;
+  margin-top: 70px;
   text-align: center;
 }
 .do {
   font-size: 30px;
-  margin-top: -30px;
+  margin-top: -20px;
   text-align: center;
 }
 .ro {
@@ -77,15 +77,15 @@ body {
 }
 .bb img {
   width: 400px;
-  height: 400px;
+  height: 450px;
 }
 .cc img {
   width: 400px;
-  height: 400px;
+  height: 450px;
 }
 .aa img {
   width: 400px;
-  height: 400px;
+  height: 450px;
 }
 .link {
   padding: 10px;
@@ -94,7 +94,7 @@ body {
   text-align: center;
   border-radius: 20px;
   margin-left: 27rem;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .link a {
   text-decoration: none;
@@ -149,7 +149,7 @@ body {
 }
 .button {
   margin-left: 83rem;
-  margin-top: 40px;
+  margin-top: 50px;
   padding: 20px;
   width: 50px;
   background-color: rgb(81, 95, 255);
