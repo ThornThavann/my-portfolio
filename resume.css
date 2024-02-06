@@ -15,11 +15,13 @@ body {
 
 .navbar {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .navbar a {
   font-size: 30px;
   text-decoration: none;
-  margin-left: 50px;
 }
 .navbar a:hover{
   color:rgb(29, 221, 93);
